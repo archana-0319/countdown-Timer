@@ -1,0 +1,24 @@
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    margin: 20px;
+}
+
+input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid rgb(223, 32, 150);
+    width: max-content;
+}
+
+.heading {
+    color: rgb(229, 239, 33);
+}
+
+#current-time{
+    color: aqua;
+    padding: 20px;
+}
