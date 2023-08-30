@@ -45,7 +45,7 @@ const CountdownTimer = () => {
         onChange={(e) => setInputTime(e.target.value)}
         onKeyDown={handleKeyDown}
       />
-      <div id="current-time"> Countdownss :  {currentTime}</div>
+      <div id="current-time"> Countdowns :  {currentTime}</div>
     </div>
   );
 }
